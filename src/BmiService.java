@@ -4,12 +4,8 @@ public class BmiService {
 
         double indexHeight = ((height * 0.01) * (height * 0.01));
         double index = weight / indexHeight;
-
         return (int) index;
-
     }
-
-
 }
 
 
